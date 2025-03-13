@@ -1,21 +1,3 @@
-/*
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-                                                 
-  _________ ___ ___ ._______   _________    
- /   _____//   |   \|   \   \ /   /  _  \   
- \_____  \/    ~    \   |\   Y   /  /_\  \  
- /        \    Y    /   | \     /    |    \ 
-/_______  /\___|_  /|___|  \___/\____|__  / 
-        \/       \/                     \/  
-                    
-DISCORD :  https://discord.gg/c5r3vH3sqt                  
-Website :  https://flexzbot.pages.dev/                         
-                                                                       
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-
-
-*/
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 require('dotenv').config();
 const express = require('express');
@@ -37,7 +19,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Helping Flexz Members 👥"];
+const statusMessages = ["Watching Left DC on YT 🎥🔥"];
 const statusTypes = [ 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
@@ -80,23 +62,3 @@ client.once('ready', () => {
 });
 
 login();
-
-  
-/*
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-                                                 
-  _________ ___ ___ ._______   _________    
- /   _____//   |   \|   \   \ /   /  _  \   
- \_____  \/    ~    \   |\   Y   /  /_\  \  
- /        \    Y    /   | \     /    |    \ 
-/_______  /\___|_  /|___|  \___/\____|__  / 
-        \/       \/                     \/  
-                    
-DISCORD :  https://discord.gg/c5r3vH3sqt                  
-Website :  https://flexzbot.pages.dev/                        
-                                                                       
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-
-
-*/
